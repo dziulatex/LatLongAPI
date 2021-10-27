@@ -22,5 +22,6 @@ po tych krokach należy wykonać 1 komendę z terminala, z kroku 5 z linku wyże
 Pomiędzy katalogami przechodzi się używając komendy "cd sciezka_katalogu".
 Terminal w katalogu w ktorym chcemy mozemy odpalic tez wchodzac do folderu z eksploratora, prawym na puste pole w folderze i "otwórz terminal tutaj" lub "open in terminal"
 następnie komenda, php bin/console doctrine:schema:update --force
-dalej pozostając w tym katalogu co byliśmy.Potem aplikacja komenda symfony serve z folderu głównego aplikacji, i aplikacja jest już gotowa do testów.
+dalej pozostając w tym katalogu co byliśmy.Potem aplikacja komenda symfony serve z folderu głównego aplikacji, i aplikacja jest już gotowa do testów pod linkiem
+http://127.0.0.1:8000/ w przeglądarce.
 
