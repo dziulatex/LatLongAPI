@@ -2,7 +2,7 @@
 Aby wszystko działało poprawnie 
 Należy zainstalować xamppa według tego linku
 https://www.howtoforge.com/how-to-install-xampp-on-ubuntu-20-04/
-następnie odpalić xamppa. W zakladce manąge servers odpalic MYSQL database i apache web server. nastepnie otworzyc przegladarke odpalic link
+następnie odpalić xamppa. W zakladce manage servers odpalic usługi MYSQL database i apache web server. nastepnie otworzyc przegladarke odpalic link
 http://localhost/phpmyadmin/
 tam wejsc w konta uzytkownikow lub privileges. Stworzyc nowego uzytkownika bez hasła. I dac mu najprosciej bedzie - wszystkie uprawnienia. Zapisac.
 Po tym wejsc w zakladke bazy danych, dodac nowa baze i zapamietac jej nazwe.
