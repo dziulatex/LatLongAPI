@@ -6,7 +6,7 @@ następnie odpalić xamppa. W zakladce manage servers odpalic usługi MYSQL data
 http://localhost/phpmyadmin/
 tam wejsc w konta uzytkownikow lub privileges. Stworzyc nowego uzytkownika bez hasła. I dac mu najprosciej bedzie - wszystkie uprawnienia. Zapisac.
 Po tym wejsc w zakladke bazy danych, dodac nowa baze i zapamietac jej nazwe.
-Nastepnie przejsc do pobranego repozytorium rozpakowanego jakims archiwizatorem
+Nastepnie przejsc do pobranego repozytorium rozpakowanego jakims archiwizatorem (jeśli pobrałeś jako archiwum repozytorium a nie jako folder)
 i zmienić w pliku
 .env (katalog główny repozytorium, ten plik moze byc niewidoczny w eksploratorze) zmienną APP_GEOLOCATIONAPIKEY na klucz do api geolokalizacyjnego google, jak to zrobic odsylam tutaj https://developers.google.com/maps/documentation/geocoding/overview 
       oraz zmienną DATABASE_URL według wzoru który jest w pliku. loginUżytkownikaDoBazy to ta nazwa ktorej uzylismy do stworzenia konta, jako implementacjaSQL wpisujemy mysql, jako port domyslny - 3306, nazwa bazy jako ta sama jak nazywalismy baze przy jej tworzeniu wyzej.
